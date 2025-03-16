@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmw7rd7puet7s"
-path="res://.godot/imported/TitleScreen.png-3f282d270019e2d3c67cccbca9e4615b.ctex"
+uid="uid://btpxi363oci03"
+path="res://.godot/imported/GroundLayer.png-8817e4c15f7a687a556839f08627ca02.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/title-screen/TitleScreen.png"
-dest_files=["res://.godot/imported/TitleScreen.png-3f282d270019e2d3c67cccbca9e4615b.ctex"]
+source_file="res://assets/title-screen/GroundLayer.png"
+dest_files=["res://.godot/imported/GroundLayer.png-8817e4c15f7a687a556839f08627ca02.ctex"]
 
 [params]
 
