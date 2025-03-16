@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://jqxdjjajd5oo"]
+
+[ext_resource type="Texture2D" uid="uid://2x5mq4t8cvkg" path="res://assets/title-screen/SmallCloud.png" id="1_uad3r"]
+[ext_resource type="Script" path="res://scripts/clouds.gd" id="1_xgjga"]
+[ext_resource type="Texture2D" uid="uid://dw3w78j8rsdu0" path="res://assets/title-screen/MediumCloud.png" id="2_jc4rr"]
+[ext_resource type="Texture2D" uid="uid://b11e0u41hcfsw" path="res://assets/title-screen/LargeCloud.png" id="3_e1bhk"]
+
+[node name="Clouds" type="Node2D"]
+z_index = 1
+z_as_relative = false
+script = ExtResource("1_xgjga")
+
+[node name="SmallCloud" type="Sprite2D" parent="."]
+z_index = 1
+z_as_relative = false
+scale = Vector2(2, 2)
+texture = ExtResource("1_uad3r")
+
+[node name="MediumCloud" type="Sprite2D" parent="."]
+z_index = 1
+z_as_relative = false
+scale = Vector2(2, 2)
+texture = ExtResource("2_jc4rr")
+
+[node name="LargeCloud" type="Sprite2D" parent="."]
+z_index = 1
+z_as_relative = false
+scale = Vector2(2, 2)
+texture = ExtResource("3_e1bhk")
